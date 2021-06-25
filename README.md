@@ -4,22 +4,24 @@
 
 ## セットアップ
 
-起動する。
+起動します。
 
 ```bash
 $ ./vendor/bin/sail up -d
 ```
 
-マイグレーションを実行する。
+マイグレーションを実行します。
 
 ```bash
 $ ./vendor/bin/sail artisan migrate
 ```
 
-## 使う
+## 使用
 
-求人情報をスクレイピングする。
+求人情報をスクレイピングします。
 
 ```bash
 $ ./vendor/bin/sail artisan scrape:mynavi
 ```
+
+`storage/app/mynavi_jobs.csv` にCSVが出力されます。
